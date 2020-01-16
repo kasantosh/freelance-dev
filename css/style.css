@@ -1,1 +1,20 @@
+.main-section {
+  width: 97%;
+  min-height: 70vh;
+  background-color: #fff;
+  padding: 3rem; }
 
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  /* box-sizing cancels adding pixels to borders */ }
+
+body {
+  background-color: #333;
+  margin: 10rem; }
+
+html {
+  font-size: 62.5%; }

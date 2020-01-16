@@ -1,0 +1,14 @@
+{
+  "name": "freelance-dev",
+  "version": "1.0.0",
+  "description": "Web Developer Portfolio",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "author": "Santosh Nair/Daniel Vadil",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.13.0"
+  }
+}
