@@ -1,0 +1,11 @@
+.header {
+    background-color: $color-navy;
+    height: 10rem;
+    color: $color-white;
+
+    &__section {
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+    }
+}

@@ -4,6 +4,15 @@
   background-color: #fff;
   padding: 3rem; }
 
+.header {
+  background-color: #121b31;
+  height: 10rem;
+  color: #fff; }
+  .header__section {
+    display: flex;
+    justify-content: space-between;
+    align-content: center; }
+
 *,
 *::after,
 *::before {
@@ -13,8 +22,11 @@
   /* box-sizing cancels adding pixels to borders */ }
 
 body {
-  background-color: #333;
-  margin: 10rem; }
+  font-family: 'Quicksand', sans-serif; }
 
 html {
   font-size: 62.5%; }
+
+.container {
+  width: 112rem;
+  margin: 0 auto; }

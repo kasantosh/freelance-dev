@@ -8,10 +8,15 @@
 }
 
 body {
-    background-color: #333;
-    margin: 10rem;
+  font-family: 'Quicksand', sans-serif;
 }
 
 html {
     font-size: 62.5%;
+}
+
+.container {
+  width: 112rem;
+  margin: 0 auto;
+  
 }
