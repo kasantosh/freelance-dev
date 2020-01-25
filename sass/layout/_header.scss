@@ -5,7 +5,10 @@
 
     &__section {
         display: flex;
+        height: 10rem;
+        font-size: 1.5rem;
+
         justify-content: space-between;
-        align-content: center;
+        align-items: center;
     }
 }

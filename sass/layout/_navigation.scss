@@ -1,0 +1,27 @@
+.navigation {
+    background-color: $color-coral;
+
+    &__list {
+        display: flex;
+        justify-content: center;
+    }
+
+    &__item  {
+        color: $color-white;
+        font-size: 1.2rem;
+        padding: 1rem;
+        list-style: none;
+        text-transform: uppercase;
+        &:not(:last-child) {
+            margin-right: 3rem;
+        }
+    }
+    
+    &__link:link,
+    &__link:visited {
+        font-size: 1.5rem;
+        color: $color-white;
+        font-weight: 500;
+        text-decoration: none;
+    }
+}
