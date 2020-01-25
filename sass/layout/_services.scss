@@ -1,0 +1,10 @@
+.services {
+    height: 40rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: $color-white;
+    
+    background-color: $color-navy;
+    border-bottom: $color-eggshell 2px solid;
+}

@@ -1,7 +1,13 @@
 @import "abstracts/variables";
+@import "abstracts/mixins";
 
+@import "layout/about";
+@import "layout/banner";
+@import "layout/footer";
 @import "layout/header";
 @import "layout/main-section";
 @import "layout/navigation";
+@import "layout/projects";
+@import "layout/services";
 
 @import "base/base";
