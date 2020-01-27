@@ -1,0 +1,9 @@
+.about {
+    height: 40rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background-color: $color-eggshell;
+    border-bottom: $color-coral 2px solid;
+}

@@ -1,0 +1,19 @@
+.header {
+    background-color: $color-navy;
+    height: 10rem;
+    color: $color-white;
+
+    position: fixed;
+    width: 100%;
+    z-index: 120;
+
+    &__section {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 10rem;
+        font-size: 1.5rem;
+    }
+    
+
+}
