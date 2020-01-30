@@ -1,10 +1,21 @@
 .about {
-  height: 40rem;
+  height: auto;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #f9e3c7;
-  border-bottom: #ec4c37 2px solid; }
+  padding: 2rem 0; }
+  .about__box {
+    display: flex;
+    justify-content: space-between; }
+  .about__text {
+    font-size: 1.6rem;
+    line-height: 1.6;
+    width: 50%;
+    padding: 2rem; }
+  .about__image-box {
+    width: 40%; }
+    .about__image-box-img {
+      width: 100%; }
 
 .banner {
   background-color: #121b31;
@@ -115,13 +126,24 @@
   border-bottom: #121b31 2px solid; }
 
 .services {
-  height: 40rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #fff;
-  background-color: #121b31;
-  border-bottom: #f9e3c7 2px solid; }
+  height: auto;
+  padding: 2rem 0;
+  background-color: #ececec; }
+  .services__box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+  .services__cards {
+    display: flex;
+    justify-content: center;
+    flex-direction: row; }
+    .services__cards-item {
+      width: 22rem;
+      height: 30rem;
+      margin: 3rem;
+      padding: 1rem;
+      background: #fff; }
 
 *,
 *::after,
