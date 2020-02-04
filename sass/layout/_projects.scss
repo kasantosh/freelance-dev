@@ -1,9 +1,8 @@
 .projects {
-    height: 40rem;
+    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
     
-    background-color: $color-coral;
     border-bottom: $color-navy 2px solid;
 }
