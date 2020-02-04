@@ -191,18 +191,51 @@ html {
       display: flex;
       flex-direction: row;
       flex-wrap: wrap; }
+      .projects__box__display__link {
+        margin-top: 1rem; }
+      .projects__box__display-btn:link, .projects__box__display-btn:visited {
+        background-color: #121b31;
+        font-size: 1.3rem;
+        text-align: center;
+        color: #fff;
+        padding: 0.25rem 1rem;
+        text-decoration: none;
+        text-transform: uppercase;
+        align-self: center;
+        margin: 2rem;
+        border-radius: 3rem;
+        border: 1px solid #5a5a5a; }
       .projects__box__display-items {
         width: 22rem;
-        height: 20rem;
-        background-image: linear-gradient(to right bottom, black, #444242); }
-      .projects__box__display-items span {
+        height: 18rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; }
+        .projects__box__display-items-1 {
+          background-image: linear-gradient(to right bottom, rgba(18, 27, 49, 0.7), rgba(228, 26, 60, 0.7)), url(/img/proj-1.jpg);
+          background-position: center;
+          background-size: cover; }
+        .projects__box__display-items-2 {
+          background-image: linear-gradient(to right bottom, rgba(18, 27, 49, 0.7), rgba(228, 26, 60, 0.7)), url(/img/proj-2.jpg);
+          background-position: center;
+          background-size: cover; }
+        .projects__box__display-items-3 {
+          background-image: linear-gradient(to right bottom, rgba(18, 27, 49, 0.7), rgba(228, 26, 60, 0.7)), url(/img/proj-3.jpg);
+          background-position: center;
+          background-size: cover; }
+        .projects__box__display-items-4 {
+          background-image: linear-gradient(to right bottom, rgba(18, 27, 49, 0.7), rgba(228, 26, 60, 0.7)), url(/img/proj-1.jpg);
+          background-position: center;
+          background-size: cover; }
+      .projects__box__display-items h3 {
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 100%;
+        height: 80%;
         color: white;
         font-size: 2rem;
-        transform-origin: 50% 20%; }
+        font-weight: 500; }
 
 .services {
   background-color: #ececec;

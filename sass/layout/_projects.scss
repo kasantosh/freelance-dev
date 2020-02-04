@@ -17,23 +17,81 @@
             display: flex;
             flex-direction: row;
             flex-wrap: wrap;
+
+            &__link {
+                margin-top: 1rem;
+            }
+
+            &-btn:link,
+            &-btn:visited {
+                background-color: $color-navy;
+                font-size: 1.3rem;
+                text-align: center;
+                color: $color-white;
+                padding: 0.25rem 1rem;
+                text-decoration: none;
+                text-transform: uppercase;  
+                align-self: center;
+                margin: 2rem;
+                border-radius: 3rem;
+                border: 1px solid rgb(90, 90, 90);
+            } 
     
             &-items {
                 
                 width: 22rem;
-                height: 20rem;
-                background-image: linear-gradient(to right bottom, black, rgb(68, 66, 66));
+                height: 18rem;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+
+                &-1 {
+                    background-image: linear-gradient(to right bottom, 
+                    rgba($color-navy, 0.7), 
+                    rgba($color-coral, 0.7)
+                    ),
+                    url(/img/proj-1.jpg);
+                    background-position: center;
+                    background-size: cover;
+                }
+                &-2 {
+                    background-image: linear-gradient(to right bottom, 
+                    rgba($color-navy, 0.7), 
+                    rgba($color-coral, 0.7)
+                    ),
+                    url(/img/proj-2.jpg);
+                    background-position: center;
+                    background-size: cover;
+                }
+                &-3 {
+                    background-image: linear-gradient(to right bottom, 
+                    rgba($color-navy, 0.7), 
+                    rgba($color-coral, 0.7)
+                    ),
+                    url(/img/proj-3.jpg);
+                    background-position: center;
+                    background-size: cover;
+                }
+                &-4 {
+                    background-image: linear-gradient(to right bottom, 
+                    rgba($color-navy, 0.7), 
+                    rgba($color-coral, 0.7)
+                    ),
+                    url(/img/proj-1.jpg);
+                    background-position: center;
+                    background-size: cover;
+                }
             }
 
-            &-items span {
+            &-items h3 {
                 display: flex;
                 justify-content: center;
                 align-items: center;
-                height: 100%;
+                height: 80%;
                 color: white;
                 font-size: 2rem;
-                transform-origin: 50% 20%;
-
+                font-weight: 500;
             }
         }
     }
