@@ -8,9 +8,11 @@
     background-size: cover;
 
     position: relative;
-    top: 14rem;
 
     &__box {
+        display: flex;
+        flex-direction: column;
+        
         text-align: center;
         position: absolute;
         top: 50%;
@@ -20,12 +22,14 @@
     }
 
     &__caption {
+        
         font-size: 5.2rem;
         color: $color-grey-light-2;
         
     }
 
     &__tag {
+        display: inline-block;
         color: $color-white;
         font-size: 2rem;
         text-align: center; 

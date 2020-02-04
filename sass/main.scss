@@ -1,6 +1,11 @@
 @import "abstracts/variables";
 @import "abstracts/mixins";
 
+@import "base/base";
+@import "base/utitlities";
+
+@import "components/buttons";
+
 @import "layout/about";
 @import "layout/banner";
 @import "layout/footer";
@@ -11,4 +16,4 @@
 @import "layout/services";
 @import "layout/typography";
 
-@import "base/base";
+
