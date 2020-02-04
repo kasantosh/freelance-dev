@@ -177,12 +177,32 @@ html {
     text-decoration: none; }
 
 .projects {
-  height: 40rem;
+  height: auto;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #e41a3c;
-  border-bottom: #121b31 2px solid; }
+  padding: 2rem 0; }
+  .projects__box {
+    display: flex;
+    flex-direction: column; }
+    .projects__box__title {
+      text-align: center; }
+    .projects__box__display {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap; }
+      .projects__box__display-items {
+        width: 22rem;
+        height: 20rem;
+        background-image: linear-gradient(to right bottom, black, #444242); }
+      .projects__box__display-items span {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        color: white;
+        font-size: 2rem;
+        transform-origin: 50% 20%; }
 
 .services {
   background-color: #ececec;
@@ -197,7 +217,8 @@ html {
   .services__cards {
     display: flex;
     justify-content: space-between;
-    flex-direction: row; }
+    flex-direction: row;
+    flex-wrap: wrap; }
     .services__cards-item {
       width: 22rem;
       height: 30rem;

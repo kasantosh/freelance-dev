@@ -3,6 +3,39 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 2rem 0;
+
+    &__box {
+        display: flex;
+        flex-direction: column;
+
+        &__title {
+            text-align: center;
+        }
+
+        &__display {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
     
-    border-bottom: $color-navy 2px solid;
+            &-items {
+                
+                width: 22rem;
+                height: 20rem;
+                background-image: linear-gradient(to right bottom, black, rgb(68, 66, 66));
+            }
+
+            &-items span {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100%;
+                color: white;
+                font-size: 2rem;
+                transform-origin: 50% 20%;
+
+            }
+        }
+    }
+
 }
