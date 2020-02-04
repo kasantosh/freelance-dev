@@ -12,7 +12,7 @@
 
 <body>
 
-    <header class="header">
+    <header class="header" id="header">
         <div class="container">
             <div class="header__section">
                 <div class="header__logo">
@@ -31,7 +31,7 @@
         <div class="container">
             <ul class="navigation__list">
                 <li class="navigation__item">
-                    <a class="navigation__link" href="#home">Home</a>
+                    <a class="navigation__link" href="#header">Home</a>
                 </li>
                 <li class="navigation__item">
                     <a class="navigation__link" href="#about">About</a>
@@ -57,9 +57,12 @@
                     Want to build a professional looking website?
                 </div>
 
-                <p class="banner__tag">
-                    Let's collaborate and build one!
-                </p>
+                <div class="banner__tag">
+                    We'll help you build it!
+                </div>
+                <!-- <div class="up-button mt-large">
+                    <a class="up-button__link" href="#header">top &uarr;</a>
+                </div> -->
 
             </div>
 
@@ -71,41 +74,108 @@
         <div class="container">
             <div class="about__box">
 
-                <div class="about__text">
-                    <h1 class="about__text-title">What we do</h1>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit eius neque fugit ullam
-                    ratione,
-                    blanditiis a minima repudiandae doloribus dicta, fugiat ea aut omnis accusamus ducimus
-                    consectetur.
-                    Sed, hic! Eveniet iure quam earum error ad repellat deserunt autem saepe! Magni.
+                <div class="about__title section-heading mb-medium">
+                    What we do!
                 </div>
-                <div class="about__image-box">
-                    <img class="about__image-box-img" src="/img/about-image.png" alt="About iamge">
+
+                <div class="about__mid-section">
+                    <div class="about__mid-section__para">
+                        We provide Web Design, ​Graphic Design, Web App Development and ​Digital marketing
+                        services to all kinds of
+                        businesses, especially start up business. Let us work together to design a novel brand
+                        image, business reputation, and hike in traffic to stand out above in your competitors.
+                        We use the
+                        latest technology and programs and design websites that look great in all kinds of
+                        devices whether it's a
+                        desktop, tablet or phone.
+                        We are specialized
+                        in these respective fields and promise to deliver a result that you are looking for.
+                    </div>
+
+                    <div class="about__mid-section__image">
+                        <img class="about__mid-section__image-img" src="/img/about-image.png" alt="About image">
+
+                    </div>
                 </div>
+
+                <div class="up-button mt-small">
+                    <a class="up-button__link" href="#header"> Go to &uarr; </a>
+                </div>
+
             </div>
-        </div>
     </section>
 
     <section class="services" id="services">
-        <div class="services__box">
 
-            <div class="services__title">
-                <h1>Recent Projects</h1>
+        <div class="services__box">
+            <div class="services__title section-heading mb-medium">
+                Our services
             </div>
 
             <div class="services__cards">
                 <div class="services__cards-item">
-                    Web Design
+                    <div class="div__cards-item__image">
+                        <img src="img/web-design-icon.png" class="services__cards-item__image" alt="Web design">
+                    </div>
+
+                    <div class="services__cards-item__title m-small">
+                        <div class="section-sub-heading">Web Design</div>
+                    </div>
+
+                    <div class="services__cards-item__text">
+                        We design and build customized websites for your business that are highly responsive.
+                    </div>
                 </div>
+
                 <div class="services__cards-item">
-                    Web Development
+                    <div class="div__cards-item__image">
+                        <img src="img/web-development-icon.png" class="services__cards-item__image" alt="Web design">
+                    </div>
+
+                    <div class="services__cards-item__title m-small">
+                        <div class="section-sub-heading">Web Development</div>
+                    </div>
+
+                    <div class="services__cards-item__text">
+                        Build customzed apps for your webstite and add interactivity to engage your customers to
+                        increase revenue.
+                    </div>
+
                 </div>
+
                 <div class="services__cards-item">
-                    Web Domain Search & Hosting
+                    <div class="div__cards-item__image">
+                        <img src="img/Domain-and-Hosting.png" class="services__cards-item__image" alt="Web design">
+                    </div>
+
+                    <div class="services__cards-item__title m-small">
+                        <div class="section-sub-heading">Domains & Hosting</div>
+                    </div>
+
+                    <div class="services__cards-item__text">
+                        We'll help you with domain name registrations and web hosting for your business, for
+                        access and maintenance.
+                    </div>
                 </div>
+
                 <div class="services__cards-item">
-                    Graphic Design
+                    <div class="div__cards-item__image">
+                        <img src="img/graphic-design.png" class="services__cards-item__image" alt="Graphic design">
+                    </div>
+
+                    <div class="services__cards-item__title m-small">
+                        <div class="section-sub-heading">Graphic Design</div>
+                    </div>
+
+                    <div class="services__cards-item__text">
+                        From logos to catalogues for start up businesses, we create and design all kinds of material to
+                        kick-start your business.
+                    </div>
                 </div>
+            </div>
+
+            <div class="up-button mt-medium">
+                <a class="up-button__link" href="#header"> Go to &uarr; </a>
             </div>
 
 
@@ -114,7 +184,44 @@
     </section>
 
     <section class="projects" id="projects">
-        Projects Section
+        <div class="projects__box">
+            <div class="projects__box__title section-heading mb-medium">
+                Web Design Samples
+            </div>
+
+            <div class="projects__box__display">
+                <div class="projects__box__display-items projects__box__display-items-1">
+                    <div class="projects__box__display__title">
+                        <h3>Sample 1</h3>
+                    </div>
+                    <div class="projects__box__display__link">
+                        <a href="https://kasantosh.github.io/MiBook/" class="projects__box__display-btn"
+                            target="_blank">View site</a>
+                    </div>
+
+                </div>
+                <div class="projects__box__display-items projects__box__display-items-2">
+                    <div class="projects__box__display__title">
+                        <h3>Sample 2</h3>
+                    </div>
+                    <div class="projects__box__display__link">
+                        <a href="https://kasantosh.github.io/Blozzom/" class="projects__box__display-btn"
+                            target="_blank">View site</a>
+                    </div>
+                </div>
+                <div class="projects__box__display-items projects__box__display-items-3">
+                    <h3>Sample 3</h3>
+                </div>
+                <div class="projects__box__display-items projects__box__display-items-4">
+                    <h3>Sample 4</h3>
+                </div>
+            </div>
+
+            <div class="up-button mt-medium">
+                <a class="up-button__link" href="#header"> Go to &uarr; </a>
+            </div>
+
+        </div>
     </section>
 
     <footer class="footer" id="footer">

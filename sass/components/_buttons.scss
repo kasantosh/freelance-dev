@@ -1,0 +1,21 @@
+.up-button {
+    display: inline-block;
+    background-color: $color-coral;
+        width: 8rem;
+        height: 3rem;
+        border-radius: 2px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-self: center;
+
+    &__link:link, 
+    &__link:visited {
+        font-size: 1.5rem;
+        text-align: center;
+        color: $color-white;
+        text-decoration: none;
+        
+    }
+
+}
