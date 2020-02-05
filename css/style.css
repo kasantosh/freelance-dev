@@ -7,7 +7,7 @@
   /* box-sizing cancels adding pixels to borders */ }
 
 body {
-  font-family: 'Quicksand', sans-serif; }
+  font-family: "Quicksand", sans-serif; }
 
 html {
   font-size: 62.5%;
@@ -107,11 +107,12 @@ html {
     border-radius: 3px; }
 
 .footer {
-  height: 40rem;
   display: flex;
   justify-content: center;
   align-items: center;
   color: #fff;
+  padding: 2rem 0;
+  font-size: 1.5rem;
   background-color: #333;
   border-bottom: #f9e3c7 2px solid; }
 
