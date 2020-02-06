@@ -23,7 +23,6 @@ html {
       font-size: 75%; } }
 
 .container {
-  width: 112rem;
   margin: 0 auto; }
 
 .mt-large {
@@ -136,7 +135,8 @@ html {
     align-items: center;
     justify-content: space-between;
     height: 10rem;
-    font-size: 1.5rem; }
+    font-size: 1.5rem;
+    padding: 0 2rem; }
 
 .main-section {
   width: 97%;

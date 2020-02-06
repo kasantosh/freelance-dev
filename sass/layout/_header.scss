@@ -1,18 +1,17 @@
 .header {
-    background-color: $color-navy;
+  background-color: $color-navy;
+  height: 10rem;
+  color: $color-white;
+
+  width: 100%;
+  z-index: 120;
+
+  &__section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     height: 10rem;
-    color: $color-white;
-
-    width: 100%;
-    z-index: 120;
-
-    &__section {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        height: 10rem;
-        font-size: 1.5rem;
-    }
-    
-
+    font-size: 1.5rem;
+    padding: 0 2rem;
+  }
 }
