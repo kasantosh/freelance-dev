@@ -200,6 +200,7 @@ html {
     .projects__box__display {
       display: flex;
       flex-direction: row;
+      justify-content: center;
       flex-wrap: wrap; }
       .projects__box__display__link {
         margin-top: 1rem; }
@@ -222,6 +223,9 @@ html {
         flex-direction: column;
         justify-content: center;
         align-items: center; }
+        @media only screen and (max-width: 56.25em) {
+          .projects__box__display-items {
+            margin: 1rem; } }
         .projects__box__display-items-1 {
           background-image: linear-gradient(to right bottom, rgba(18, 27, 49, 0.7), rgba(228, 26, 60, 0.7)), url(/img/proj-1.jpg);
           background-position: center;
@@ -259,7 +263,7 @@ html {
     padding: 2rem 0; }
   .services__cards {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-direction: row;
     flex-wrap: wrap; }
     .services__cards-item {
@@ -270,6 +274,9 @@ html {
       background: #fff;
       border-radius: 1rem;
       box-shadow: 0 1rem 2rem rgba(51, 51, 51, 0.2); }
+      @media only screen and (max-width: 56.25em) {
+        .services__cards-item {
+          margin-bottom: 2rem; } }
       .services__cards-item__image {
         width: 22rem;
         align-self: center; }
